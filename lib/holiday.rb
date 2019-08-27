@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-puts holiday_hash.keys.values_at.flatten
+puts holiday_hash.keys.values.flatten
 end
 
 def all_holidays_with_bbq(holiday_hash)
