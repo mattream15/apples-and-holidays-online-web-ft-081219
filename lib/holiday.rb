@@ -66,7 +66,7 @@ def all_holidays_with_bbq(holiday_hash)
   [ ] << holiday_hash.keys.include?("BBQ")
   end
 end
-
+end
 
 
 
