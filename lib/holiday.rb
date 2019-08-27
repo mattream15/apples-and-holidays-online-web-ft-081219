@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-holiday_hash.keys.values_at
+holiday_hash.keys.values_at[:winter, :summer, :fall, :spring]
 end
 
 def all_holidays_with_bbq(holiday_hash)
